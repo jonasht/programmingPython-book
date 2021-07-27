@@ -2,7 +2,7 @@ import os, sys
 from http.server import HTTPServer, CGIHTTPRequestHandler
 
 webdir = '.' # onde html files estao
-port = 80
+port = 8888
 
 
 os.chdir(webdir)

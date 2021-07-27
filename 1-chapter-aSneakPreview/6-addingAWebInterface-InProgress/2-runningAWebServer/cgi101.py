@@ -1,4 +1,4 @@
-#/home/jo/.conda/envs/env-python/bin/python
+#!/usr/bin/python
 
 import cgi
 
