@@ -3,6 +3,7 @@ def more(text, numlines=15):
     while lines:
         chuck = lines[:numlines]
         lines = lines[numlines:]
+        
         for line in chuck: 
             print(line)
         if lines and input('more/mais?') not in ['y', 'Y', 's', 'S']:
